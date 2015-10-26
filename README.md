@@ -14,3 +14,19 @@ Application input arguments:
 1 - type of tagging "pos" for POS-tagging or "coref" for coreference resolution parsing
 
 2 - input filename with some phrases, absolute path
+
+# Technical details
+
+1. Application requires Java 1.8
+2. Don't forget to update your maven settings.xml file with following repo:
+<repository>
+    <id>MavenCentral</id>
+    <name>Maven repository</name>
+    <url>http://repo1.maven.org/maven2</url>
+    <releases>
+      <enabled>true</enabled>
+    </releases>
+    <snapshots>
+      <enabled>false</enabled>
+    </snapshots>
+ </repository>
