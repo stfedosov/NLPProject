@@ -1,6 +1,8 @@
 # NLPProject
 OpenNLP &amp; StanfordNLP-based text taggers
 
+This application can read your string data (a column of phrases are preferable) and process it with using POS-tagger/Coreference resolution parser. In the end of processing this program creates a corresponding ".csv" file with parsing results. 
+
 # 1 step
 mvn clean install
 
