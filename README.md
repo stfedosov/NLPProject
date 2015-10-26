@@ -18,15 +18,9 @@ Application input arguments:
 # Technical details
 
 1. Application requires Java 1.8
-2. Don't forget to update your maven settings.xml file with following repo:
+2. Don't forget to update your maven settings.xml file with
 <repository>
     <id>MavenCentral</id>
     <name>Maven repository</name>
     <url>http://repo1.maven.org/maven2</url>
-    <releases>
-      <enabled>true</enabled>
-    </releases>
-    <snapshots>
-      <enabled>false</enabled>
-    </snapshots>
  </repository>
